@@ -1,0 +1,8 @@
+©MxBit2020
+
+My Constantly Rolling Archlinux PKGBUILD dependency extractor.
+Used for aur-package-snapshots
+
+What  works?  dependz!
+What doesnt?  flushing into Packagemanger
+ 
