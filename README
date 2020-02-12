@@ -1,0 +1,17 @@
+©MxBit 2020
+Appreciations to AUR Core Devs!
+mxbit(at)yahoo.com
+
+Simply run: 
+sudo python install.py 
+
+USING:     aurload "anypackage"
+Example:   aurload spotify
+
+
+Simple tool to make aurload availabe in your System.
+Tool -> Download, Extract packages from aur-package repository
+
+TODO:
+#AddSomePantz
+#AndAutoInstall
