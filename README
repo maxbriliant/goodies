@@ -6,7 +6,7 @@ Simply run:
 sudo python install.py 
 
 USING:     aurload "anypackage"
-Example:   aurload spotify
+Example:   aurload ruby-install
 
 
 Simple tool to make aurload availabe in your System.
