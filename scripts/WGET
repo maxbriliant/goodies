@@ -1,0 +1,16 @@
+wget -r –level=0 -E –ignore-length -x -k -p -erobots=off -np -N http://www.remote.com/remote/presentation/dir
+
+Here are the options:
+
+-r : Recursive retrieving (important)
+–level=0: Specify recursion maximum depth level (0 for no limit), very important
+-E: append “.html” extension to every document declared as “application/html“
+useful when you deal with dirs (that are not dirs but index.html files)
+–ignore-lenght: Ignore “Content-length” http headers, sometimes useful when dealing with bugged CGI programs
+-x: Force dirs, create an hierarchy of directories even if one would not been created otherwise
+-k: here’s one of the most useful options, it converts remote links to local for best viewing
+-p: download ll the files that are necessary for proper display of the page
+(not so reliable when dealing with JS code but useful)
+-erobots=off: turn off http robots.txt usage
+-np: no parent, do not ascend to parent dir when retrieving recursively,
+one of the most useful function I’ve seen

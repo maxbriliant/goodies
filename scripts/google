@@ -1,0 +1,5 @@
+$in=$0;
+cmdr=$(echo 'links www.google.de/search?q=');
+
+
+$cmdr $input;
